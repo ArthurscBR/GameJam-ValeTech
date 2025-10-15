@@ -38,9 +38,6 @@
     "name":"spt_player",
     "path":"sprites/spt_player/spt_player.yy",
   },
-  "spriteMaskId":{
-    "name":"spt_player",
-    "path":"sprites/spt_player/spt_player.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
