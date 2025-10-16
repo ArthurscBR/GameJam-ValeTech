@@ -3,7 +3,7 @@ event_inherited();
 velocidade = 5;
 gravidade = 0.3;
 pulo = -7;
-
+portal_1 = true;
 function input_player()
 {
 	var _left, _right, _jump;
@@ -27,4 +27,18 @@ function input_player()
 	{
 		velv += gravidade;
 	}
+}
+
+function movingInLayers()
+{
+	if(place_meeting(x, y, obj_portal))
+	{	
+		if(room_next(room) != -1)
+			room_goto_next();
+	}
+	
+	if(place_meeting(x, y, obj_portal_volta))
+	{	
+			room_goto_previous();
+	}	
 }
