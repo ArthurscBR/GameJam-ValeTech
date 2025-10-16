@@ -2,27 +2,43 @@
   "$GMSprite":"",
   "%Name":"spt_player",
   "bboxMode":0,
+<<<<<<< HEAD
   "bbox_bottom":27,
   "bbox_left":1,
   "bbox_right":28,
   "bbox_top":1,
   "collisionKind":1,
+=======
+  "bbox_bottom":163,
+  "bbox_left":15,
+  "bbox_right":106,
+  "bbox_top":25,
+  "collisionKind":4,
+>>>>>>> 445e578 (Gabs commit)
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
+<<<<<<< HEAD
     {"$GMSpriteFrame":"","%Name":"19e7ee72-4c3d-41f1-a3c1-7f171ce8fe43","name":"19e7ee72-4c3d-41f1-a3c1-7f171ce8fe43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"bd76917e-95bc-4049-aab0-ce9ce99d6410","name":"bd76917e-95bc-4049-aab0-ce9ce99d6410","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"c48abadb-cbc3-4d4c-9978-3401ba227e72","name":"c48abadb-cbc3-4d4c-9978-3401ba227e72","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"d483e477-506b-497a-8388-729bddbf1658","name":"d483e477-506b-497a-8388-729bddbf1658","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+=======
+    {"$GMSpriteFrame":"","%Name":"27b2d0cc-56cf-4b34-ae16-fbc3e2d69852","name":"27b2d0cc-56cf-4b34-ae16-fbc3e2d69852","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+>>>>>>> 445e578 (Gabs commit)
   ],
   "gridX":0,
   "gridY":0,
-  "height":32,
+  "height":167,
   "HTile":false,
   "layers":[
+<<<<<<< HEAD
     {"$GMImageLayer":"","%Name":"d325a8ad-2271-44db-b220-a321fa5ffcb3","blendMode":0,"displayName":"default","isLocked":false,"name":"d325a8ad-2271-44db-b220-a321fa5ffcb3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+=======
+    {"$GMImageLayer":"","%Name":"84e659d2-dc91-4587-95bb-67ec057793e4","blendMode":0,"displayName":"default","isLocked":false,"name":"84e659d2-dc91-4587-95bb-67ec057793e4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+>>>>>>> 445e578 (Gabs commit)
   ],
   "name":"spt_player",
   "nineSlice":null,
@@ -62,18 +78,23 @@
     },
     "name":"spt_player",
     "playback":1,
+<<<<<<< HEAD
     "playbackSpeed":10.0,
+=======
+    "playbackSpeed":2.0,
+>>>>>>> 445e578 (Gabs commit)
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":32.0,
-    "seqWidth":32.0,
+    "seqHeight":167.0,
+    "seqWidth":125.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+<<<<<<< HEAD
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"19e7ee72-4c3d-41f1-a3c1-7f171ce8fe43","path":"sprites/spt_player/spt_player.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1a54f072-0865-4149-809c-68c38f5f323f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
@@ -85,12 +106,16 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d483e477-506b-497a-8388-729bddbf1658","path":"sprites/spt_player/spt_player.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8f5856f6-74dc-46fd-ad66-9eb058016429","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+=======
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"27b2d0cc-56cf-4b34-ae16-fbc3e2d69852","path":"sprites/spt_player/spt_player.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"aaf00b39-6741-4fed-9da2-0d2383a8d8f8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+>>>>>>> 445e578 (Gabs commit)
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":16,
-    "yorigin":32,
+    "xorigin":62,
+    "yorigin":167,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -100,5 +125,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":32,
+  "width":125,
 }

@@ -152,7 +152,11 @@
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"Player_Sprite_Sheet","path":"sprites/Player_Sprite_Sheet/Player_Sprite_Sheet.yy",},},
+=======
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+>>>>>>> 445e578 (Gabs commit)
     {"id":{"name":"spt_parede","path":"sprites/spt_parede/spt_parede.yy",},},
     {"id":{"name":"spt_player","path":"sprites/spt_player/spt_player.yy",},},
   ],
