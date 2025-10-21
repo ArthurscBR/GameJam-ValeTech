@@ -28,3 +28,25 @@ function input_player()
 		velv += gravidade;
 	}
 }
+
+function movingInLayers()
+{
+	if(place_meeting(x, y, obj_portal_ida))
+	{	
+		if(room_next(room) != -1)
+			room_goto_next();
+	}
+	
+	if(place_meeting(x, y, obj_portal_volta))
+	{	
+			room_goto_previous();
+	}	
+}
+
+function damege(){
+	var room_atual=room
+	if(place_meeting(x,y,obj_acido))
+	{
+		room_goto(room);
+	}
+}
